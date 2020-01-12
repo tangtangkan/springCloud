@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    config:
+      name: microservice-config-product
+      profile: prod
+      label: master
+      uri: http://localhost:5001
+#rabbitmq配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+#暴露触发消息总线的地址
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh

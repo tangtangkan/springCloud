@@ -1,0 +1,9 @@
+# bootstrap.yml是系统级别的配置，优先极高，不会被本地覆盖
+# application.yml是用户级别的配置
+spring:
+  cloud:
+    config:
+      name: microservice-config-application # github上配置文件名称
+      profile: prod # 读取的环境配置项
+      label: master # 读取的git分支
+      uri: http://localhost:5001  # 配置中心

@@ -1,0 +1,20 @@
+服务端集成Eureka
+
+服务端集成消息总线bus
+1.引入mq依赖和监听器
+2.配置配置文件
+3.修改gitbub上的配置文件
+4.postman调用 http://localhost:8001/actuator/bus-refresh接口，实时更新配置文件
+
+
+
+一、实时获取github线上配置文件
+
+二、在配置文件中实时获取GitHub库中的配置文件
+1.需要在类上加入@RefreshScope注解
+
+三、类似访问数据库的配置文件，让配置文件实时生效
+使用了DruidDataSource数据源时，不会实时更新
+解决方法：自定义Druid配置类，注入spring容器中
+在类上使用@RefreshScope注解，注：不能再类上使用
+@ConfigurationProperties绑定数据源配置

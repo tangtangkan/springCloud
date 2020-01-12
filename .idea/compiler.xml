@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-cloud-common" />
+        <module name="microservice-cloud-config" />
+        <module name="microservice-cloud-config-client" />
+        <module name="microservice-cloud-consumer" />
+        <module name="microservice-cloud-consumer-feign" />
+        <module name="microservice-cloud-consumer-hystrix" />
+        <module name="microservice-cloud-eureka" />
+        <module name="microservice-cloud-eureka-config" />
+        <module name="microservice-cloud-eureka-two" />
+        <module name="microservice-cloud-hystrix-dashboard" />
+        <module name="microservice-cloud-provider" />
+        <module name="microservice-cloud-provider-config" />
+        <module name="microservice-cloud-provider-hystrix" />
+        <module name="microservice-cloud-provider-two" />
+        <module name="mircoservice-cloud-zuul-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservice-cloud" target="1.8" />
+      <module name="microservice-cloud-common" target="1.8" />
+      <module name="microservice-cloud-config" target="1.8" />
+      <module name="microservice-cloud-config-client" target="1.8" />
+      <module name="microservice-cloud-consumer" target="1.8" />
+      <module name="microservice-cloud-consumer-feign" target="1.8" />
+      <module name="microservice-cloud-consumer-hystrix" target="1.8" />
+      <module name="microservice-cloud-eureka" target="1.8" />
+      <module name="microservice-cloud-eureka-config" target="1.8" />
+      <module name="microservice-cloud-eureka-two" target="1.8" />
+      <module name="microservice-cloud-hystrix-dashboard" target="1.8" />
+      <module name="microservice-cloud-provider" target="1.8" />
+      <module name="microservice-cloud-provider-config" target="1.8" />
+      <module name="microservice-cloud-provider-hystrix" target="1.8" />
+      <module name="microservice-cloud-provider-two" target="1.8" />
+      <module name="mircoservice-cloud-zuul-gateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

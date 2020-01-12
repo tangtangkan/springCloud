@@ -1,0 +1,13 @@
+server:
+  port: 5001
+
+spring:
+  application:
+    name: microservice-config
+  cloud:
+    config:
+      server:
+        git: # 远程仓库地址
+#          uri: https://github.com/mengxuegu/microservice-cloud-config.git
+          uri: https://github.com/tangtangkan/micorservice-cloud-config.git
+#          force-pull: true

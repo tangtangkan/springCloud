@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/microservice-cloud" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-cloud-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-cloud-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-cloud-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-cloud-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-cloud-consumer-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-cloud-consumer-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-cloud-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-cloud-eureka-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-cloud-eureka-two" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-cloud-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-cloud-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-cloud-provider-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-cloud-provider-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-cloud-provider-two" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mircoservice-cloud-zuul-gateway" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
